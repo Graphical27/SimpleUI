@@ -1,0 +1,36 @@
+.gui-card {
+    background: rgb(219, 207, 207);
+    border-radius: var(--gui-radius);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: var(--gui-spacing-md);
+    width: 100%;
+    max-width: 350px; 
+    margin: 1rem auto; 
+    height: 200px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .gui-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .gui-card-title {
+    font-size: var(--gui-font-lg);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .gui-card-body {
+    font-size: var(--gui-font-md);
+    text-align: center;
+  }
+  
+  .gui-card-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

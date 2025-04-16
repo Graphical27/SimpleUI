@@ -1,0 +1,37 @@
+{
+  "name": "simpleui",
+  "version": "1.0.0",
+  "description": "A Simple NPM package for CSS UI components and utilities",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "base/",
+    "components/",
+    "mode/",
+    "util/",
+    "style.css"
+  ],
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Graphical27/SimpleUI.git"
+  },
+  "keywords": [
+    "npm",
+    "css",
+    "ui",
+    "components",
+    "utilities",
+    "design-system",
+    "simpleui",
+    "tech-titans"
+  ],
+  "author": "Tech-Titans",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Graphical27/SimpleUI/issues"
+  },
+  "homepage": "https://github.com/Graphical27/SimpleUI#readme"
+}
